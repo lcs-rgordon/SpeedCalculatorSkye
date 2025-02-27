@@ -17,7 +17,7 @@ struct SpeedView: View {
         VStack {
             
             // OUTPUT
-
+            
             if let speed = viewModel.speed {
                 
                 VStack(spacing: 0) {
@@ -38,12 +38,12 @@ struct SpeedView: View {
                 }
                 .frame(height: 250)
                 
-            
-            
+                
+                
             } else {
                 ContentUnavailableView("Unable to perform calculation", systemImage: "gear.badge.questionmark", description: Text(viewModel.recoverySuggestion))
                     .frame(height: 250)
-
+                
             }
             
             // INPUT

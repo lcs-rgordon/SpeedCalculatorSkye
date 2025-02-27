@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
- 
+
 struct SpeedItemView: View {
     
     // MARK: Stored properties
@@ -16,34 +16,29 @@ struct SpeedItemView: View {
     var body: some View {
         
         HStack {
-
+            
             HStack(alignment: .center) {
                 HStack(alignment: .top) {
                     
-                    Text("\(speed.distance.formatted())")
-                        .font(.largeTitle)
-                    
-                    Text("\(speed.time.formatted())")
+                    Text("Speed")
                         .font(.largeTitle)
                 }
-                HStack {
- 
-                    Text("=")
-                        .font(.largeTitle)
- 
-                    Text("\(speed.Speed.formatted())")
-                        .font(.largeTitle)
-                }
+                
+                Text("=")
+                    .font(.largeTitle)
+                
+                Text("\(speed.Speed.formatted()) km/h")
+                    .font(.largeTitle)
+                
             }
             .lineLimit(1)
             .minimumScaleFactor(0.5)
             
-            Spacer()
         }
         
     }
 }
- 
+
 #Preview {
     SpeedItemView(speed: Speed(distance: 3, time: 2))
         .padding()

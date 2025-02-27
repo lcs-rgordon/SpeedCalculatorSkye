@@ -12,7 +12,7 @@ class SpeedViewModel {
     
     
     // MARK: Stored properties
-
+    
     var resultHistory: [Speed] = []
     
     var providedDistance: String
@@ -70,7 +70,7 @@ class SpeedViewModel {
         self.providedTime = providedTime
         self.recoverySuggestion = recoverySuggestion
     }
-
+    
     
     
     // MARK: Function(s)
