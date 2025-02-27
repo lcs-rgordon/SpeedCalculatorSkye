@@ -14,6 +14,7 @@
 		261C9EE92D70AC8D0016D62C /* SpeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C9EE82D70AC8D0016D62C /* SpeedView.swift */; };
 		261C9EEB2D70ACAA0016D62C /* SpeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C9EEA2D70ACAA0016D62C /* SpeedViewModel.swift */; };
 		261C9EED2D70ACBA0016D62C /* SpeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C9EEC2D70ACBA0016D62C /* SpeedModel.swift */; };
+		261C9EEF2D70ADAC0016D62C /* SpeedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C9EEE2D70ADAC0016D62C /* SpeedItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		261C9EE82D70AC8D0016D62C /* SpeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedView.swift; sourceTree = "<group>"; };
 		261C9EEA2D70ACAA0016D62C /* SpeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedViewModel.swift; sourceTree = "<group>"; };
 		261C9EEC2D70ACBA0016D62C /* SpeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedModel.swift; sourceTree = "<group>"; };
+		261C9EEE2D70ADAC0016D62C /* SpeedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				261C9EE72D70AC650016D62C /* Model */,
+				261C9EE62D70AC630016D62C /* ViewModel */,
 				261C9EE52D70AC500016D62C /* View */,
 				261C9EDA2D70AC300016D62C /* Preview Content */,
 				261C9EDB2D70AC300016D62C /* Assets.xcassets */,
@@ -79,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				261C9EE82D70AC8D0016D62C /* SpeedView.swift */,
+				261C9EEE2D70ADAC0016D62C /* SpeedItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -95,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				261C9EEC2D70ACBA0016D62C /* SpeedModel.swift */,
-				261C9EE62D70AC630016D62C /* ViewModel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				261C9EEB2D70ACAA0016D62C /* SpeedViewModel.swift in Sources */,
+				261C9EEF2D70ADAC0016D62C /* SpeedItemView.swift in Sources */,
 				261C9EE12D70AC300016D62C /* ContentView.swift in Sources */,
 				261C9EED2D70ACBA0016D62C /* SpeedModel.swift in Sources */,
 				261C9EE22D70AC300016D62C /* SpeedCalculatorApp.swift in Sources */,
