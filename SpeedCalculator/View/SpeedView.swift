@@ -18,11 +18,11 @@ struct SpeedView: View {
             
             // OUTPUT
 
-            if let speed = viewModel.fahrenheitToCelsius {
+            if let speed = viewModel.speed {
                 
                 VStack(spacing: 0) {
                     
-                    FahrenheitToCelsiusItemView(fahrenheitToCelsius: fahrenheitToCelsius)
+                    SpeedItemView(speed: speed)
                         .padding(.bottom, 30)
                     
                     // Add a button so that the result can be saved
