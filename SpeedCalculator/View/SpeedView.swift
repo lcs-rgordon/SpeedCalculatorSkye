@@ -22,7 +22,7 @@ struct SpeedView: View {
                 
                 VStack(spacing: 0) {
                     
-                    SpeedItemView(speed: speed)
+                    SpeedItemView(speed: speed, shortFormat: true)
                         .padding(.bottom, 30)
                     
                     // Add a button so that the result can be saved
@@ -65,7 +65,7 @@ struct SpeedView: View {
             // Iterate over the list of results
             List(viewModel.resultHistory) { currentResult in
                 
-                SpeedItemView(speed: currentResult)
+                SpeedItemView(speed: currentResult, shortFormat: false)
                 
             }
             .listStyle(.plain)
